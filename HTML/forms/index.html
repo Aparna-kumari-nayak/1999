@@ -22,22 +22,25 @@
         <label for="ma">male</label>
         <input type="radio" name="f" id="fe">
         <label for="fe">female</label>
-        <input type="radio" name="t" id="t">
-        <label for="t">transgender</label></p><br>
+        <input type="radio" name="o" id="o">
+        <label for="t">other</label></p><br>
         <p>types of vehicles:</p>
-        <label>2 wheeler</label>
         <input type="checkbox" id="2w" name="2w" value="2wheeler">
-        <label>3 wheeler</label>
+        <label>2 wheeler</label>
         <input type="checkbox" id="3w" name="3w" value="3wheeler">
-        <label>4 wheeler</label>
-        <input type="checkbox" id="4w" name="4w" value="4wheeler"><br><br>
+        <label>3 wheeler</label>
+        <input type="checkbox" id="4w" name="4w" value="4wheeler">
+        <label>4 wheeler</label><br><br>
         <label for="vehicle">vehicles category:</label>
         <select id="vehicle" id="vehicle" size="2" multiple >
-            <option value="2w">2 wheeler</option>
-            <option value="3w">3 wheeler</option>
-            <option value="4w">4 wheeler</option>
-            <option value="6w">6 wheeler</option>
-            <option value="8w">8 wheeler</option>
+            <optgroup label="2 wheeler">
+            <option value="2w">scooty</option>
+            <option value="2w">bike</option>
+            <option value="2w">royal infield</option></optgroup>
+            <optgroup label="3 wheeler">
+            <option value="3w">auto</option>
+            <option value="3wheeler">riksha</option>
+            <option value="3w">scooty</option></optgroup>
         </select><br><br><br>
         
         <button type="submit">submit</button>
