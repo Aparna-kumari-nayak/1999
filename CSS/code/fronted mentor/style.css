@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+
+}
+.card{
+    justify-content: center;
+    align-items: center;
+}
+.top-section h2{color: cadetblue;
+
+}
+.top-section h4{
+    color: chartreuse;
+}
+.top-section p{
+    color:rgb(rgb(170, 159, 159), green, blue)
+}
+
+
